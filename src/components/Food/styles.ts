@@ -19,7 +19,7 @@ export const Container = styled.div<DivProps>`
     ${(props) =>
       !props.available &&
       css`
-        opacity: 0.3;
+        opacity: 0.2;
       `};
 
     img {
@@ -43,8 +43,8 @@ export const Container = styled.div<DivProps>`
 
     .price {
       font-style: normal;
-      font-size: 24px;
-      line-height: 34px;
+      font-size: 1.55rem;
+      line-height: 2.125rem;
       color: #39b100;
 
       b {

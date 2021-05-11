@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const FoodsContainer = styled.div`
   width: 100%;
@@ -11,4 +11,12 @@ export const FoodsContainer = styled.div`
 
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 32px;
+
+  @media (max-width: 1128px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 820px) {
+    grid-template-columns: auto;
+  }
 `;
